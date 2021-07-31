@@ -11,6 +11,7 @@
 
         $scope.displayMessage = function () {
             $scope.message = checkList($scope.list);
+            
             if ($scope.message == "Please enter data first")
                 $scope.color = "red";
             else
