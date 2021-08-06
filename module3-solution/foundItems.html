@@ -1,0 +1,12 @@
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div ng-if="empty" style="color: red;">Nothing found</div>
+    <ul>
+        <li ng-repeat="item in foundItems" style="margin-bottom: 7px;">
+            <span style="font-size: medium;">{{item.name}} [{{item.short_name}}]</span>
+            <button ng-click="onRemove({idx: $index})">Remove item</button>
+            <br>
+            <span>{{item.description}}</span>
+        </li>
+    </ul>
+
+</div>
