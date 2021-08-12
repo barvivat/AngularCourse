@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Module 5 solution</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+
+    <body ng-app="MenuApp">
+
+        <h1>Menu items viewer</h1>
+        <ui-view></ui-view>
+        
+        <!-- libs -->
+        <script src="./lib/angular.min.js"></script>
+        <script src="./lib/angular-ui-router.min.js"></script>
+
+        <!-- modules -->
+        <script src="./src/data.module.js"></script>
+        <script src="./src/menuapp.module.js"></script>
+        
+        <!-- routes -->
+        <script src="./src/routes.js"></script>
+
+        <!-- controllers -->
+        <script src="./src/categoriesList.controller.js"></script>
+        <script src="./src/itemsList.controller.js"></script>
+        
+        <!-- services -->
+        <script src="./src/menudata.service.js"></script>
+
+        <!-- components -->
+        <script src="./src/categories.component.js"></script>
+        <script src="./src/items.component.js"></script>
+
+
+    </body>
+</html>

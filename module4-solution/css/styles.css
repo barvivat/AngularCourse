@@ -1,0 +1,13 @@
+.itemName {
+  font-size: 1.1em;
+  font-style: italic;
+  text-decoration: underline;
+}
+li {
+  margin-bottom: 10px;
+}
+li[ui-sref]:hover {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: pointer;
+}
